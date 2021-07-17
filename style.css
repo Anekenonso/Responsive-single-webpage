@@ -60,16 +60,34 @@ body, html{
 
 .grid-box .subscription {
     width: 50%;
-    max-width: 550px;
+    max-width: 50%;
     margin: 0;
     padding: 0;
     background: hsl(218, 22%, 67%);
-
+    color: aliceblue;
 }
+
+.grid-box .subscription .content{
+    margin: 0 25px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.grid-box .subscription .content ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.grid-box .subscription .content ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
 
 .grid-box .why-us{
     width: 50%;
-    max-width: 550px;
+    max-width: 50%;
     margin: 0;
     padding: 0;
     background: hsl(179, 62%, 43%);
