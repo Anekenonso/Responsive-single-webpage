@@ -2,7 +2,8 @@
 body, html{
     display: contents;
     font-family: karla;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 700;
     margin: 0;
     padding: 0;
 }
@@ -24,8 +25,8 @@ justify-content: center;
     background-color: hsl(204, 43%, 93%);
 }
 .one .content{
-    width: 95%;
-    margin: 50px;
+    width: auto;
+    margin: 40px;
 }
 .one .content h3{
     color: hsl(179, 62%, 43%);;
@@ -46,20 +47,24 @@ justify-content: center;
 }
 
 .why-us{
-  background-color: hsl(218, 22%, 67%);
+  background-color: hsl(179, 44%, 56%);
 }
 
 .subscription .content{
     width: auto;
-    margin: 100px; 
+    margin: 60px; 
+    color: white;
 }
-.subscription .content {
+.subscription .content ul {
+    display: flex;
+    flex-direction: row;
 
 }
 
 .why-us .content{
     width: auto;
-    margin: 100px;
+    margin: 60px;
+    color: white;
 }
 
 
