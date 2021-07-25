@@ -2,7 +2,7 @@
 body, html{
     display: contents;
     font-family: karla;
-    font-size: 16px;
+    font-size: 20px;
     margin: 0;
     padding: 0;
 }
@@ -19,13 +19,47 @@ justify-content: center;
 
 .one{
     grid-template-columns: 1fr;
-    width: 50%;
+    width: 90%;
     margin: auto;
+    background-color: hsl(204, 43%, 93%);
 }
+.one .content{
+    width: 95%;
+    margin: 50px;
+}
+.one .content h3{
+    color: hsl(179, 62%, 43%);;
+}
+.one .content h4{
+    color: hsl(71, 73%, 54%);
+}
+
+
 .two{
     grid-template-columns: 1fr 1fr;
-    width: 50%;
+    width: 90%;
     margin: auto;
+}
+
+.subscription{
+   background-color: hsl(179, 62%, 43%);
+}
+
+.why-us{
+  background-color: hsl(218, 22%, 67%);
+}
+
+.subscription .content{
+    width: auto;
+    margin: 100px; 
+}
+.subscription .content {
+
+}
+
+.why-us .content{
+    width: auto;
+    margin: 100px;
 }
 
 
