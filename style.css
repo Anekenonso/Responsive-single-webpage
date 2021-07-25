@@ -8,89 +8,24 @@ body, html{
 }
 
 .container{
-    width: 90%;
-    justify-content: center;
-    padding: 0 40px;
-    margin: 0 40px;
-    box-sizing: border-box;
-    max-width: 90%;
+width: auto;
+margin: auto;
+justify-content: center;
 }
 
-/* Community styling */
-
-.container .community{
-    background: hsl(204, 43%, 93%);
-    width: 100%;
-    max-width: 1100px;
-    margin: 0 25px 5px 25px;
-    padding: 25px;
-    justify-content: center;
+.one, .two{
+    display: grid;
 }
 
-.community .contents{
-    width: 100%;
-    max-width: 1100px;
-    margin: 25px;
-    padding: 25px;
-    justify-content: center;
-    line-height: 1.5;
-    text-align: left;
-}
-
-.community .contents h3{
-    color: hsl(179, 62%, 43%);
-}
-.community .contents h4 {
-    color: hsl(71, 73%, 54%);
-}
-
-/* End of community styling */
-
-/* Grid Box Styling*/
-
-.container .grid-box{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    max-width: 1100px;
-    margin: 0 25px;
-    padding: 0 25px;
-    justify-content: center;
-}
-
-.grid-box .subscription {
+.one{
+    grid-template-columns: 1fr;
     width: 50%;
-    max-width: 50%;
-    margin: 0;
-    padding: 0;
-    background: hsl(218, 22%, 67%);
-    color: aliceblue;
+    margin: auto;
 }
-
-.grid-box .subscription .content{
-    margin: 0 25px;
-    width: 100%;
-    max-width: 100%;
-}
-
-.grid-box .subscription .content ul{
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-}
-
-.grid-box .subscription .content ul li {
-    text-decoration: none;
-    list-style-type: none;
-}
-
-
-.grid-box .why-us{
+.two{
+    grid-template-columns: 1fr 1fr;
     width: 50%;
-    max-width: 50%;
-    margin: 0;
-    padding: 0;
-    background: hsl(179, 62%, 43%);
+    margin: auto;
 }
 
 
