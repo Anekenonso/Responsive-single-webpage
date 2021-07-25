@@ -1,7 +1,7 @@
 
 body, html{
     display: contents;
-    font-family: karla;
+    font-family: Karla;
     font-size: 16px;
     font-weight: 700;
     margin: 0;
@@ -26,13 +26,14 @@ justify-content: center;
 }
 .one .content{
     width: auto;
-    margin: 40px;
+    margin: 50px;
 }
 .one .content h3{
-    color: hsl(179, 62%, 43%);;
+    color: hsl(179, 62%, 43%);
 }
+
 .one .content h4{
-    color: hsl(71, 73%, 54%);
+    color: hsl(64, 73%, 54%);
 }
 
 
@@ -55,10 +56,30 @@ justify-content: center;
     margin: 60px; 
     color: white;
 }
-.subscription .content ul {
+
+.subscription .content ul{
     display: flex;
     flex-direction: row;
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+}
 
+.subscription .content ul li {
+    font-weight: 500;
+    line-height: 1.5;
+    margin-right: 10px;
+    list-style-type: none;
+}
+.subscription .btn{
+    width: 100%;
+    background-color: hsl(64, 73%, 54%);
+		border-radius: 16px;
+	    size: 20px;
+		color: rgb(255, 255, 255);
+		cursor: pointer;
+        border: 1px solid gray;
+        box-shadow: 2px;
 }
 
 .why-us .content{
