@@ -9,6 +9,7 @@ body, html{
 }
 
 .container{
+    height: auto;
 width: auto;
 margin: auto;
 justify-content: center;
@@ -20,7 +21,7 @@ justify-content: center;
 
 .one{
     grid-template-columns: 1fr;
-    width: 90%;
+    width: auto;
     margin: auto;
     background-color: hsl(204, 43%, 93%);
 }
@@ -41,7 +42,7 @@ justify-content: center;
 
 .two{
     grid-template-columns: 1fr 1fr;
-    width: 90%;
+    width: auto;
     margin: auto;
 }
 
