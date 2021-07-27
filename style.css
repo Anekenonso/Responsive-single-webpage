@@ -35,7 +35,9 @@ justify-content: center;
 .one .content h4{
     color: hsl(64, 73%, 54%);
 }
-
+.one .content p{
+    color: #fff;
+}
 
 .two{
     grid-template-columns: 1fr 1fr;
@@ -77,9 +79,9 @@ justify-content: center;
 		border-radius: 16px;
 	    size: 20px;
 		color: rgb(255, 255, 255);
-		cursor: pointer;
+        font-size: 20px;
         border: 1px solid gray;
-        box-shadow: 2px;
+        box-shadow: 10px;
 }
 
 .why-us .content{
