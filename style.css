@@ -76,8 +76,7 @@ justify-content: center;
 .subscription .btn{
     width: 100%;
     background-color: hsl(64, 73%, 54%);
-		border-radius: 16px;
-	    size: 20px;
+		border-radius: 10px;
 		color: rgb(255, 255, 255);
         font-size: 20px;
         border: 1px solid gray;
