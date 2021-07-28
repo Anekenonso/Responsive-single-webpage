@@ -5,8 +5,17 @@ html {
   font-size: 16px;
   font-weight: 700;
   width: auto;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+main{
+    width: auto;
+    height: auto;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 0 auto;
+
 }
 
 /* General container elements styling starts here */
@@ -14,7 +23,8 @@ html {
 .container {
   height: auto;
   width: auto;
-  margin: auto;
+  max-width: fit-content;
+  margin: 0 auto;
   justify-content: center;
 }
 
@@ -26,7 +36,7 @@ html {
 .one {
   grid-template-columns: 1fr;
   width: auto;
-  margin: auto;
+  margin: 0 auto;
   background-color: hsl(0, 0%, 100%);
 }
 .one .content {
@@ -51,7 +61,7 @@ html {
 .two {
   grid-template-columns: 1fr 1fr;
   width: auto;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .subscription {
@@ -76,7 +86,7 @@ html {
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
   font-size: 20px;
 }
 
@@ -111,6 +121,23 @@ html {
 /* why us styling ends */
 
 /* media Query styling starts */
+
+@media(max-width: 375px) {
+  body,
+  html {
+    width: auto ;
+    padding: 0 auto;
+    margin: 0 auto;
+  }
+
+  .two {
+    display: grid;
+    grid-template-columns: auto;
+    width: auto;
+    margin: 0 auto;
+  }
+
+}
 
 /* media Query styling ends */
 
