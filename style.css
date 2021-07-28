@@ -4,25 +4,17 @@ html {
   font-family: Karla;
   font-size: 16px;
   font-weight: 700;
-  width: auto;
+  height: auto;
+  width: 100%;
   margin: 0 auto;
   padding: 0 auto;
-}
-
-main{
-    width: auto;
-    height: auto;
-    max-width: fit-content;
-    margin: 0 auto;
-    padding: 0 auto;
-
 }
 
 /* General container elements styling starts here */
 
 .container {
+  width: 100%;
   height: auto;
-  width: auto;
   max-width: fit-content;
   margin: 0 auto;
   justify-content: center;
@@ -35,6 +27,7 @@ main{
 
 .one {
   grid-template-columns: 1fr;
+  height: auto;
   width: auto;
   margin: 0 auto;
   background-color: hsl(0, 0%, 100%);
@@ -60,6 +53,7 @@ main{
 
 .two {
   grid-template-columns: 1fr 1fr;
+  height: auto;
   width: auto;
   margin: 0 auto;
 }
@@ -122,10 +116,10 @@ main{
 
 /* media Query styling starts */
 
-@media(max-width: 375px) {
+@media (max-width: 375px) {
   body,
   html {
-    width: auto ;
+    width: auto;
     padding: 0 auto;
     margin: 0 auto;
   }
@@ -142,6 +136,9 @@ main{
 /* media Query styling ends */
 
 .attribution {
+  height: auto;
+  width: auto;
+  margin: 0 auto;
   font-size: 11px;
   text-align: center;
 }
