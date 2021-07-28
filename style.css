@@ -1,96 +1,123 @@
-
-body, html{
-    display: contents;
-    font-family: Karla;
-    font-size: 16px;
-    font-weight: 700;
-    margin: 0;
-    padding: 0;
+body,
+html {
+  display: contents;
+  font-family: Karla;
+  font-size: 16px;
+  font-weight: 700;
+  width: auto;
+  margin: 0;
+  padding: 0;
 }
 
-.container{
-    height: auto;
-width: auto;
-margin: auto;
-justify-content: center;
+/* General container elements styling starts here */
+
+.container {
+  height: auto;
+  width: auto;
+  margin: auto;
+  justify-content: center;
 }
 
-.one, .two{
-    display: grid;
+.one,
+.two {
+  display: grid;
 }
 
-.one{
-    grid-template-columns: 1fr;
-    width: auto;
-    margin: auto;
-    background-color: hsl(204, 43%, 93%);
+.one {
+  grid-template-columns: 1fr;
+  width: auto;
+  margin: auto;
+  background-color: hsl(0, 0%, 100%);
 }
-.one .content{
-    width: auto;
-    margin: 50px;
+.one .content {
+  width: auto;
+  margin: 50px;
 }
-.one .content h3{
-    color: hsl(179, 62%, 43%);
-}
-
-.one .content h4{
-    color: hsl(64, 73%, 54%);
-}
-.one .content p{
-    color: #fff;
+.one .content h3 {
+  color: hsl(179, 62%, 43%);
 }
 
-.two{
-    grid-template-columns: 1fr 1fr;
-    width: auto;
-    margin: auto;
+.one .content h4 {
+  color: hsl(64, 73%, 54%);
+}
+.one .content p {
+  color: hsl(0, 0%, 81%);
 }
 
-.subscription{
-   background-color: hsl(179, 62%, 43%);
+/* General container element styling ends here */
+
+/* second grid box general styling starts */
+
+.two {
+  grid-template-columns: 1fr 1fr;
+  width: auto;
+  margin: auto;
 }
 
-.why-us{
+.subscription {
+  background-color: hsl(179, 62%, 43%);
+}
+
+.why-us {
   background-color: hsl(179, 44%, 56%);
 }
 
-.subscription .content{
-    width: auto;
-    margin: 60px; 
-    color: white;
+/* second grid box general styling ends */
+
+/* Subscription core styling starts */
+
+.subscription .content {
+  width: auto;
+  margin: 50px;
+  color: white;
 }
 
-.subscription .content ul{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin: auto;
-    font-size: 20px;
+.subscription .content ul {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: auto;
+  font-size: 20px;
 }
 
 .subscription .content ul li {
-    font-weight: 500;
-    line-height: 1.5;
-    margin-right: 10px;
-    list-style-type: none;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-right: 10px;
+  list-style-type: none;
 }
-.subscription .btn{
-    width: 100%;
-    background-color: hsl(64, 73%, 54%);
-		border-radius: 10px;
-		color: rgb(255, 255, 255);
-        font-size: 20px;
-        border: 1px solid gray;
-        box-shadow: 10px;
+.subscription .content ul li .month {
+  color: hsl(0, 1%, 68%);
 }
-
-.why-us .content{
-    width: auto;
-    margin: 60px;
-    color: white;
+.subscription .btn {
+  width: 100%;
+  background-color: hsl(64, 73%, 54%);
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border: 1px solid gray;
+  box-shadow: 10px;
 }
 
+/* subscription core styling stops */
 
+/* why us core styling */
+.why-us .content {
+  width: auto;
+  margin: 60px;
+  color: white;
+}
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+/* why us styling ends */
+
+/* media Query styling starts */
+
+/* media Query styling ends */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
