@@ -27,13 +27,14 @@ html {
 
 .one {
   grid-template-columns: 1fr;
-  height: auto;
+  height: 40vh;
   width: auto;
   margin: 0 auto;
   background-color: hsl(0, 0%, 100%);
 }
 .one .content {
   width: auto;
+  height: auto;
   margin: 50px;
 }
 .one .content h3 {
@@ -53,7 +54,7 @@ html {
 
 .two {
   grid-template-columns: 1fr 1fr;
-  height: auto;
+  height: 40vh;
   width: auto;
   margin: 0 auto;
 }
@@ -73,13 +74,13 @@ html {
 .subscription .content {
   width: auto;
   margin: 50px;
-  color: white;
+  color: #fff;
 }
 
 .subscription .content ul {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: auto;
   margin: 0 auto;
   font-size: 20px;
 }
@@ -124,11 +125,15 @@ html {
     margin: 0 auto;
   }
 
+  .one, .two{
+    height: auto;
+    width: auto;
+    margin: auto;
+  }
+
   .two {
     display: grid;
     grid-template-columns: auto;
-    width: auto;
-    margin: 0 auto;
   }
 
 }
@@ -136,7 +141,7 @@ html {
 /* media Query styling ends */
 
 .attribution {
-  height: auto;
+  height: 2vh;
   width: auto;
   margin: 0 auto;
   font-size: 11px;
