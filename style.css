@@ -98,10 +98,16 @@ html {
   width: 100%;
   background-color: hsl(64, 73%, 54%);
   border-radius: 10px;
+  transition: .2s;
   color: rgb(255, 255, 255);
   font-size: 20px;
   border: 1px solid gray;
   box-shadow: 10px;
+}
+
+.subscription .btn:hover{
+  transform: scale(.8);
+  opacity: 1;
 }
 
 /* subscription core styling stops */
@@ -143,7 +149,7 @@ html {
 .attribution {
   height: 2vh;
   width: auto;
-  margin: 0 auto;
+  margin: 10px 0 0 0;
   font-size: 11px;
   text-align: center;
 }
