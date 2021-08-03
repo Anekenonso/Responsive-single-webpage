@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution submitted](https://www.frontendmentor.io/solutions/html-css-using-css-grid-B5yWBG5M9)
 - Live Site URL: [Fc-single webpage](https://fcsinglewebpage.netlify.app/)
 
 ## My process
